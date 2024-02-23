@@ -22,3 +22,10 @@ make
 ```
 
 ![Nom de l'image](images/sizedexemplereadme.png)
+
+## Conclusion
+
+To delve deeper into the implementation of the program with raycasting, you can follow this [link](https://lodev.org/cgtutor/raycasting.html).
+
+For further insights into the `minilibx` graphic library and its usage, you can refer to this [link](https://aurelienbrabant.fr/blog/getting-started-with-the-minilibx).
+
