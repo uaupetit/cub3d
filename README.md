@@ -12,6 +12,30 @@ In this project, you will create a simplified version of a game engine. The main
 - The player can move forward, backward, and sideways, as well as rotate the view to look around.
 - Walls, doors, and other obstacles must be displayed realistically, with proper textures and shading.
 
+## Creating Your Map
+
+To create your own map for Cub3D, you need to add a `.ber` file to the `maps` folder. Additionally, you must specify the paths to the images, the color codes for the ceiling and floor, and describe the map layout. Here's an example:
+
+```plaintext
+NO ./images/north_side.xpm
+WE ./images/west_side.xpm
+SO ./images/south_side.xpm
+EA ./images/east_side.xpm
+F 225, 100, 236
+C 135, 206, 250
+
+11111111111111111111
+10000000000000000001
+10000000000000010001
+10001000000000000001
+10000000000100000001
+100010000W0000000111
+10000000000000000001
+10000001000100000001
+10000000000000000001
+11111111111111111111
+```
+
 ## Compilation Example: Cub3D
 
 To compile the `Cub3D` program, run:
